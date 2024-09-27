@@ -1,0 +1,9 @@
+sqlite3 todos.db
+.schema
+insert into todos (title, description, priority, complete) values ('go to store', 'get groceries', 5, False);
+select * from todos;
+.mode column
+.mode markdown
+.mode box
+.mode table
+delete from todos where id = 1;
